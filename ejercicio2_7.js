@@ -9,17 +9,21 @@ function suma(){
 	var elemTotal = tamMatriz * tamMatriz;
 	var contador = 0;
 	var posMatriz = 0;
-	var resultado = 0;
+	var positivos = 0;
+	var ceros = 0;
+	var posicionLista = 0;
+	var inicioFila = 0;
+	var contadorFilas = 0;
 	
 	while (contador < elemTotal){
 		matriz.push(Math.floor(Math.random() * 9)+1);
 		contador++;
 	}
-	while (posMatriz < matriz.length){
-		resultado = resultado + matriz[posMatriz];
-//		posMatriz = posMatriz + parseInt(tamMatriz) + 1;
-		posMatriz = posMatriz + tamMatriz + 1;
+	
+	while (inicioFila < matriz.length){
+		
 	}
+	
 	
 	console.log(matriz)
 	console.log(tamMatriz)
